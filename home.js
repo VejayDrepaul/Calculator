@@ -4,12 +4,14 @@ function display(value) {
 
 function clearDisplay() {
     document.getElementById('input-box').value = "";
+    document.getElementById('result-box').value = "";
 }
 
 function solve() {
     let x = document.getElementById('input-box').value;
+    display('=');
     let y = eval(x);
-    document.getElementById('input-box').value = y;
+    document.getElementById('result-box').value = y;
 }
 
 function sin() {
@@ -92,7 +94,7 @@ function percent() {
     let num2 = document.getElementById('input-box').value;
 
     let ans = num1 * (num2 / 100);
-    document.getElementById('input-box').value = ans;    
+    document.getElementById('input-box').value = ans;
 }
 
 function powerOfTen() {
