@@ -9,9 +9,18 @@ body {
 
 .trig {
 	top: 134px;
+<<<<<<< HEAD
+=======
 }
 
-input {
+#input-box {
+	text-align: right;
+	width: 740px;
+	height: 20px;
+>>>>>>> test
+}
+
+#result-box {
 	text-align: right;
 	width: 740;
 	height: 50;
