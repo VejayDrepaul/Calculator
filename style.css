@@ -11,7 +11,13 @@ body {
 	top: 134px;
 }
 
-input {
+#input-box {
+	text-align: right;
+	width: 740px;
+	height: 20px;
+}
+
+#result-box {
 	text-align: right;
 	width: 740;
 	height: 50;
